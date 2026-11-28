@@ -1,0 +1,24 @@
+
+# Web Framework
+fastapi
+uvicorn[standard]
+
+# Database
+sqlalchemy>=2.0
+psycopg[binary]>=3.2
+
+# Configuration
+pydantic-settings
+
+# QR Code
+qrcode[pil]
+
+# Authentication & Password Security
+pwdlib[argon2]
+
+# Testing
+pytest
+httpx
+
+# Utilities
+python-multipart
